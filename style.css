@@ -1,52 +1,63 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #f4f6f8;
 }
 
-header, footer {
-  background-color: #0056b3;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
+header {
+    background: #0b3c5d;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 nav {
-  background: #007bff;
-  padding: 10px 0;
-  text-align: center;
+    background: #1c7293;
+    padding: 10px;
+    text-align: center;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
-.container {
-  padding: 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-h1, h2 {
-  color: #0056b3;
-}
-
-table, th, td {
-  border: 1px solid #ccc;
-  border-collapse: collapse;
-  padding: 8px;
+section {
+    padding: 20px;
+    background: white;
+    margin: 15px;
+    border-radius: 5px;
 }
 
 table {
-  width: 100%;
-  margin-bottom: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0b3c5d;
+    color: white;
 }
